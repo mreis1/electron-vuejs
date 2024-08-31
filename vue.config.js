@@ -1,6 +1,5 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  publicPath: './', // Ensure this is set
   transpileDependencies: true,
   pluginOptions: {
     electronBuilder: {
